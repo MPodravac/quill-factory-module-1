@@ -1,7 +1,5 @@
-import { Component, ElementRef, EventEmitter, forwardRef, Input, Output, Renderer2, ViewEncapsulation } from '@angular/core';
+import { Component, ElementRef, EventEmitter, forwardRef, Input, Output, Renderer2, ViewEncapsulation, DOCUMENT } from '@angular/core';
 import { NG_VALUE_ACCESSOR, NG_VALIDATORS } from '@angular/forms';
-import { Inject } from '@angular/core';
-import { DOCUMENT } from '@angular/platform-browser';
 import * as QuillNamespace from 'quill';
 var Quill = QuillNamespace;
 var QuillEditorComponent = (function () {
